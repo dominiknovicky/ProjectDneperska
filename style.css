@@ -1,0 +1,220 @@
+html, 
+body {
+	margin: 0;padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+#topNav {
+	max-width: 100%;
+	background: #fff;
+	line-height: 5em;
+	height: 5em;
+	padding: 0 2.8em 0 4em;
+    box-shadow: 0 0px 10px #3F3F3F;
+    position: fixed;
+    z-index: 20;
+	left: 0; right: 0; top: 0;
+}
+
+.navLogo {
+	display: inline-block;
+	max-width: 30%;
+}
+.navLogo span {
+	font-size: 2em;
+	font-weight: bolder;
+}
+
+.navLogo .dneperska {
+	font-family: 'Raleway', sans-serif;
+	color: #0C1144;
+	letter-spacing: 3px;
+
+}
+.navLogo .jeden {
+	font-family: 'Swanky and Moo Moo', cursive;
+	color: #D55B11;
+	text-shadow: 0 0 1px #fff;
+	letter-spacing: 2px;
+}
+
+#topNav ul {
+	display: inline-block;
+	max-width: 70%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+#topNav ul li {
+	display: inline-block;
+	margin: 0 -2px;
+}
+
+#topNav ul li a {
+    transition: all ease-in-out .2s;
+	text-decoration: none;
+	padding: 0 1.2em;
+	color: #0C1144;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: .95em;
+	font-weight: 600;
+	position: relative;
+	display: inline-block;
+}
+#topNav ul li a:hover {
+	background: #D55B11;
+	color: #fff;
+}
+
+#home {
+	background: url(http://dneperska.sk/assets/images/og-dneperska.jpg) no-repeat center 2.5em fixed;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+}
+
+table tr {
+	border: 0 solid #fff;
+}
+
+#formular {
+	margin: 5em auto;
+	border: none;
+	line-height: 24px;
+	width: 50%;
+}
+
+.avatar {
+	border-radius: 50%;
+	width: 70%;
+	border: 10px solid #fff;
+}
+
+.frmlr {
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	letter-spacing: 4px;
+	padding: 1em;
+	text-align: center;
+	font-size: 3.5em;
+	background: #0C1144;
+	color: #fff;
+	width: 
+}
+
+thead {
+	background: rgba(213,91,17,.35);
+	margin: 2em;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+table td {
+	padding: 3em;
+	border-bottom: 3px solid #fff;
+}
+
+table .left {
+	text-align: right;
+	padding: 2em 1em 2em 0em;
+}
+table .right {
+	text-align: left;
+	padding: 2em 4em 2em 1em;
+}
+
+tbody {
+	background: rgba(213,91,17,.13);
+	margin: 2em;
+	border: none;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+table td td span {
+	width: 300px;
+	display: inherit;
+}
+
+.hundred input {
+	width: 100%;
+}
+
+input,
+option {
+	padding: 8px;
+	border-radius: 4px;
+	border: 1px solid #909090;
+}
+
+.bttn {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 1em;
+	letter-spacing: 2px;
+	background: #0C1144;
+	color: #fff;
+	padding: 7px 12px;
+	display: inline-block;
+	border: 2px solid #fff;
+	border-radius: 5px;
+    transition: all ease-in-out .2s;
+    margin: .5em 0;	
+}
+.bttn:hover {
+	background: #3B428D;
+}
+
+.photobox {
+	max-width: 100%;
+	overflow: hidden;
+	height: 370px;
+	margin: 0em auto;
+}
+
+.photobox img {
+	max-width: 50%;
+	float: left;
+}
+
+nav ul {
+	max-width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 2em 0;
+}
+
+nav ul li .fa {
+	color: #0C1144;
+	margin: .5em;
+	transition: all .3s ease;
+}
+
+nav ul li .fa:hover {
+	color: #D55B11;
+	transition: all .3s ease;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+footer {
+	text-align: center;
+	background: rgba(213,91,17,1);
+	color: #fff;
+	font-size: .9em;
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing: 1px;
+	padding: 3em;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Test</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://use.fontawesome.com/69e9bead1c.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,600,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo" rel="stylesheet">
+</head>
+<body>
+
+	<div id="home">
+		<nav id="topNav">
+			<div class="navLogo">
+				<span class="dneperska">DNEPERSKA</span><span class="jeden">JEDEN</span>
+			</div>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#formular">Formular</a></li>
+				<li><a href="#photo">Photo</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+		
+
+	<table id="formular" cellspacing="0" cellpadding="0">
+		<form action="index_submit" method="get" accept-charset="utf-8">
+			<caption class="frmlr">Formular</caption>
+				<thead>
+					<tr>
+						<td align="center" class="left">
+							<img class="avatar" src="img/avatar.jpg" alt=""><br>
+						</td>
+						<td class="right">
+							<span><i style="color: #0C1144" class="fa fa-user" aria-hidden="true"></i></span>
+								<input style="width: 92%; border-bottom: 0" type="text" name="login" placeholder="Username" maxlength="15" minlength="4"><br>
+							<span><i style="padding: 1.5px; color: #0C1144" class="fa fa-lock" aria-hidden="true"></i></span>
+								<input style="width: 91.5%" type="password" name="password" placeholder="Password"><br>
+							<span style="padding: 5px 0px 0; display: inline-block;">Remember me</span>
+								<input type="checkbox" name="remember me"><br>
+							<span><a style="text-decoration: none; color: #3B4288; font-size: .9em;" href="#"><i>Forgot Password?</i></a></span><br>
+							<button class="bttn" type="submit">LOGIN</button>
+						</td>					
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td class="hundred" style="padding: 3em 1em 3em 3em">
+							<h3>Personal Information:</h3>
+							<span>First Name:</span><br>
+								<input type="text" name="firstName" placeholder="First Name"><br>
+							<span>Last Name:</span><br>
+								<input type="text" name="lastName" placeholder="Last Name"><br>
+							<span>Date of Birth:</span><br>
+								<input type="date" name="dateOfBirth"><br>				
+							<span>Email:</span><br>
+								<input type="email" name="email" placeholder="xyz@example.com"><br>
+						</td>
+
+						<td style="padding: 3em 3em 3em 1em"><br><br><br>
+							<span>Gender:</span><br>
+									<input type="radio" name="gender">
+								<span>Male</span><br>
+									<input type="radio" name="gender">
+								<span>Female</span><br>
+								<span>Nationality:</span><br>
+									<select style="width: 100%; padding: 6px; border-radius: 4px; border: 1px solid #909090;" name="nationality">
+										<option value="German">German</option>
+										<option value="Finnish">Finnish</option>
+										<option value="French">French</option>
+									</select><br>
+								<span>Expected Salary:</span><br>
+									<input style="width: 100%" type="text" id="textInput" value="" placeholder="0"><br>
+									<input style="width: 100%"type="range" name="rangeInput" min="0" max="2000" step="50" onchange="updateTextInput(this.value);">
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<span>Status:</span><br>
+									<input type="radio" name="status">
+								<span>Single</span><br>
+									<input type="radio" name="status">
+								<span>Married</span><br>
+									<input type="radio" name="status">
+								<span>Widowed</span><br>
+									<input type="radio" name="status">
+								<span>Divorced</span><br>
+						</td>	
+						<td>
+							<span>Language skills:</span><br>
+								<input type="checkbox" name="Slovak">
+									<span>Slovak</span><br>
+								<input type="checkbox" name="English" value="">
+									<span>English</span><br>
+								<input type="checkbox" name="German" value="">
+									<span>Russian</span><br>
+								<input type="checkbox" name="Other" value="">
+									<span>Other</span><br>
+						</td>
+					</tr>
+
+					<tr>
+						<td style="padding: 3em 0 3em 3em">
+							<span>About me:</span><br>
+								<textarea style="width: 100%; height: 90px;" name="aboutme"></textarea>
+						</td>
+
+						<td>
+							<button style="margin-bottom: 0; width: 100%" class="bttn" type="reset">RESET</button><br>
+							<button style="margin-top: 0; width: 100%"  class="bttn" type="submit">SUBMIT</button>
+						</td>
+					</tr>
+				</tbody>
+		</form>
+	</table>
+
+	<div id="photo" class="photobox">
+		<img style="top:-200px; position: relative;" src="img/1.jpg" alt="">	
+		<img src="img/2.jpg" alt="">	
+	</div>
+
+	<nav id="contact">
+		<ul>
+			<li><a target="_blank" href="https://gymbosak.edupage.org/"><i class="fa fa-facebook-square fa-5x" aria-hidden="true"></i></a></li>
+			<li><a target="_blank" href="https://gymbosak.edupage.org/"><i class="fa fa-instagram fa-5x" aria-hidden="true"></i></a></li>
+			<li><a target="_blank" href="https://gymbosak.edupage.org/"><i class="fa fa-envelope fa-5x" aria-hidden="true"></i></a></li>
+		</ul>
+	</nav>
+
+	<footer>
+		<div>ALL RIGHTS RESERVED&nbsp • &nbsp© COPYRIGHT 2O17 DOMINIK NOVICKY&nbsp • &nbspALL LOGOS & TRADEMARK BELONGS TO THEIR RESPECTIVE OWNERS</div>
+	</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
